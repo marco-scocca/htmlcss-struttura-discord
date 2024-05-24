@@ -60,3 +60,20 @@ body {
     padding-right: 200px;
     padding-bottom: 50px;
 }
+
+.container-full3 {
+    max-width: 100%;
+    background-color: rgba(39, 12, 240, 0.955);
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+.col {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgba(255, 0, 251, 0.304);
+
+}
