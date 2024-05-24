@@ -70,3 +70,20 @@ body {
     background-color: plum;
 
 }
+
+.container-full4 {
+    max-width: 100%;
+    background-color: rgba(12, 36, 35, 0.304);
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+
+}
+
+.col2 {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: green
+}
