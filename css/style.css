@@ -10,10 +10,13 @@ body {
 
 }
 
-.container-full {
+.container-full2 {
     max-width: 100%;
-    background-color: gray;
-    padding: 50px;
+    background-color: rgba(128, 128, 128, 0.223);
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
 }
 
 .row {
@@ -21,16 +24,39 @@ body {
     flex-wrap: wrap;
 }
 
-.col-sx {
+.col-sx2 {
     width: 30%;
     background-color: rgba(255, 0, 174, 0.43);
     height: 400px;
     border: 1px solid black;
 }
 
-.col-dx {
+.col-dx2 {
     width: 70%;
-    background-color: rgba(55, 0, 255, 0.826);
+    background-color: rgba(0, 42, 255, 0.507);
     height: 400px;
     border: 1px solid black;
+}
+
+.col-sx1 {
+    width: 70%;
+    background-color: rgba(0, 42, 255, 0.507);
+    height: 400px;
+    border: 1px solid black;
+}
+
+.col-dx1 {
+    width: 30%;
+    background-color: rgba(255, 0, 174, 0.43);
+    height: 400px;
+    border: 1px solid black;
+}
+
+.container-full {
+    max-width: 100%;
+    background-color: rgba(128, 128, 128, 0);
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
 }
