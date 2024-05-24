@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.container-full {
+    max-width: 100%;
+    background-color: gray;
+    padding: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sx {
+    width: 30%;
+    background-color: rgba(255, 0, 174, 0.43);
+    height: 400px;
+    border: 1px solid black;
+}
+
+.col-dx {
+    width: 70%;
+    background-color: rgba(55, 0, 255, 0.826);
+    height: 400px;
+    border: 1px solid black;
+}
